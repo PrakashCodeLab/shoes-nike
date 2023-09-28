@@ -80,19 +80,19 @@ const HeroSec = () => {
         className=" p-4 absolute  max-xl:top-[700px]  flex justify-around items-center gap-7 max-w-[500px] h-[300px] top-[550px]">
           <div
             onClick={() => imageChange(Image1)}
-            className="bg-gray-300  shadow-md p-5 rounded-lg"
+            className="bg-gray-300  shadow-md p-5 rounded-lg cursor-pointer"
           >
             <Image src={Image1} alt="hero image 1" />
           </div>
           <div
             onClick={() => imageChange(Image2)}
-            className="bg-gray-300  shadow-md p-5 rounded-lg"
+            className="bg-gray-300  shadow-md p-5 rounded-lg cursor-pointer"
           >
             <Image src={Image2} alt="hero image 1" />
           </div>
           <div
             onClick={() => imageChange(Image3)}
-            className="bg-gray-300  shadow-md p-5 rounded-lg"
+            className="bg-gray-300  shadow-md p-5 rounded-lg cursor-pointer"
           >
             <Image src={Image3} alt="hero image 1" />
           </div>
