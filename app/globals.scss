@@ -17,6 +17,14 @@ $Palanquin-family: 'Palanquin', sans-serif;
  
 }
 
+body{
+    width:100dvw;
+    min-height:100dvh;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+}
+    
+
 
 /* Style the scrollbar */
 /* Webkit (Safari, Chrome) */
